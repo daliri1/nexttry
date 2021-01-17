@@ -1,0 +1,96 @@
+.bodyA{
+    margin: 0;
+    background-image: url(motor1.jpg);  
+    font-family: Century Gothic;
+    background-repeat: no-repeat;
+    height: 600px;
+    weight: 50px;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.bodyB{
+    
+    background: green;
+    background-size: cover;
+    text-align: center;
+
+
+}
+
+
+
+
+.title{
+    position:absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+.title h2{
+    
+    color: red;
+    font-family: "Brush Script MT", cursive;
+    font-size: 90px;
+    
+    
+}
+.button{
+    position: absolute;
+    top: 33%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.btn{
+    border: 1px solid blue;
+    padding: 10px 30px;
+    color: white;
+    background-color: blue;
+    text-decoration: none;
+    border-radius: 50px;
+}
+.container h1{
+    color: gray;
+}
+.container h2{
+    color: gray;
+    
+    
+}
+.container{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    width: 800px;
+    height: 750px;
+}
+.container img{
+     width: 700px;
+    height: 400px;
+    text-align: center;
+    padding: 0px 0;
+    
+}
+
+.selector select{
+    
+    text-align: center;
+    color: black;
+    padding: 10px 70px;
+    width: 24%;
+    background-color: white;
+    text-decoration: none;
+    border-radius: 3px;
+}
+.buttons button{
+    color: white;
+    padding: 10px 30px;
+    background-color: cornflowerblue;
+    text-decoration: none;
+    border-radius: 10px;
+}
