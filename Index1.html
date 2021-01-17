@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+         <link rel="stylesheet" href="style.css">
+        <title>Hello, World!</title>
+    </head>
+    <body class="bodyB">
+        
+            <div class="container"> 
+                <h1>Motor Bike Color Changer</h1>
+                
+               <h1> <img id="bodies" src="motor.png"></h1>
+                <pre>
+                   <h2>Generate Random Color           Generate Specific Color </h2> 
+                </pre>
+                
+                <div class ="selector">
+                    <select id ="selectorbox">
+                        <option id="pri-color" value="1">Blue</option>
+                        <option id="pri-color" value="2">Grey</option>
+                        <option id="pri-color" value="3">Green</option>
+                        <option id="pri-color" value="4">Yellow</option>
+                        <option id="pri-color" value="5">light Blue</option>
+                        <option id="pri-color" value="6">Black</option>
+                    </select>
+                    <br>
+                    <div class="buttons">
+                        <button class="btnsucess" onclick= "changebgColor()" id="button" >Generate</button>
+                        <button style="  left: 75%; ; background-color: cornflowerblue; border-radius: 5px; color: white;" onclick = "fn1()" >Show</button>
+                    
+                    
+                       <button style="left: 70%; ; background-color: grey; border-radius: 5px; color: white;" onclick = "clearcolor()" class="reset">Reset</button>
+                    </div>
+                </div>
+            </div>
+            
+<script src="js.js"></script>
+    </body>
+        
+                    
+</html>
